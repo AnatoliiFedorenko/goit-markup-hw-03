@@ -153,7 +153,7 @@ nav {
 /* ефективні рішення */
 .solutions {
   background-color: #2f303a;
-  padding: 200px;
+  padding: 200px 0;
 }
 
 .head-solution {
@@ -223,6 +223,10 @@ nav {
   display: flex;
 }
 
+.section-advantages .items {
+  width: 270px;
+}
+
 .section-advantages .items + .items {
   margin-left: 30px;
 }
@@ -251,7 +255,7 @@ nav {
 }
 
 .examples h2 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -265,7 +269,7 @@ nav {
 }
 
 .section-examples .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 /* команда */
@@ -288,8 +292,12 @@ nav {
   justify-content: space-between;
 }
 
+.team-names {
+  margin: 30px 0;
+}
+
 .section-team h3 {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 10px;
 
   color: var(--primary-text-color);
@@ -404,7 +412,7 @@ nav {
 }
 
 .portfolio-buttons .item + .item {
-  margin-left: 30px;
+  margin-left: 8px;
 }
 
 .portfolio-buttons .button-item:hover,
@@ -423,16 +431,19 @@ nav {
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
+  width: 370px;
 }
 
 .portfolio-flex:nth-child(3n) {
   margin-right: 0;
 }
 
+.portfolio-names {
+  margin: 20px 24px;
+}
+
 .section-portfolio h2 {
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
 
   color: var(--primary-text-color);
 
@@ -443,8 +454,6 @@ nav {
 }
 
 .section-portfolio p {
-  margin-left: 24px;
-
   color: #757575;
 
   font-size: 16px;
