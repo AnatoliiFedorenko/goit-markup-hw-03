@@ -428,10 +428,12 @@ nav {
 }
 
 .portfolio-flex {
+  display: block;
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
+  height: 404px;
 }
 
 .portfolio-flex:nth-child(3n) {
@@ -439,7 +441,7 @@ nav {
 }
 
 .portfolio-names {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .section-portfolio h2 {
