@@ -428,7 +428,7 @@ nav {
 }
 
 .portfolio-flex {
-  display: block;
+  /* display: block; */
   border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
