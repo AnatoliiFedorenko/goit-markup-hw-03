@@ -252,6 +252,7 @@ nav {
 /* Чим ми займаємося */
 .examples {
   background-color: #f5f5f5;
+  padding-bottom: 94px;
 }
 
 .examples h2 {
@@ -265,7 +266,6 @@ nav {
 
 .section-examples {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .section-examples .item + .item {
@@ -319,6 +319,7 @@ nav {
 /* Підвал */
 .bottom {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
 /* лого-підвал */
@@ -345,10 +346,6 @@ nav {
 }
 
 /* контакти-підвал */
-.section-bottom {
-  padding: 60px 0;
-}
-
 .contacts-bottom a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
